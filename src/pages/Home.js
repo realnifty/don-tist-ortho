@@ -1,8 +1,9 @@
+import Hero from '../components/Hero';
+
 const Home = () => {
 	return (
-		<main className="bg-danger">
-			<h1>Home</h1>
-			<p>Welcome to our site!</p>
+		<main className='bg-danger'>
+			<Hero/>
 		</main>
 	);
 };

@@ -33,16 +33,18 @@ const Navbar = () => {
 				>
 					<span className='navbar-toggler-icon name'></span>
 				</button>
-				<div
-					className={`bg-danger navbar-collapse ${navbarOpen ? `open` : `collapse`}`}
-				>
-					<ul className='navbar-nav'>
-						<li className='nav-item'>hello</li>
-						<li className='nav-item'>hello</li>
-						<li className='nav-item'>hello</li>
-					</ul>
-				</div>
 			</nav>
+			<div
+				className={`bg-danger navbar-collapse ${
+					navbarOpen ? `open` : `collapse`
+				}`}
+			>
+				<ul className='navbar-nav'>
+					<li className='nav-item'>hello</li>
+					<li className='nav-item'>hello</li>
+					<li className='nav-item'>hello</li>
+				</ul>
+			</div>
 		</div>
 	);
 };
