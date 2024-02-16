@@ -66,3 +66,16 @@ code {
 .consult-btn {
 	background-color: var(--accent-color) !important;
 }
+
+.about {
+	background: linear-gradient(to right, var(--secondary-color), var(--accent-color));
+}
+
+.doctist {
+	width: 100%;
+	height: auto;
+}
+
+.meet {
+	background-color: var(--secondary-color) !important;
+}

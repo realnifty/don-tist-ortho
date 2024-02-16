@@ -14,8 +14,8 @@ const Navbar = () => {
 	};
 
 	return (
-		<div>
-			<nav className='navbar d-flex flex-row align-items-center justify-content-between p-3 text-black'>
+		<div className='sticky-top'>
+			<nav className='navbar d-flex flex-row align-items-center justify-content-between p-3 text-black bg-white'>
 				<div className='d-flex flex-row align-items-center'>
 					<img src={Braces} alt='logo' className='brace-logo me-2' />
 					<div className='d-flex flex-column'>

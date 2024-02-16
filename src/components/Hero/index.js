@@ -5,7 +5,7 @@ const Hero = () => {
 				<h1 className="fw-bolder">Your Local Houston Orthodontist</h1>
         <p className="fs-3">Creating Lifelong Smiles for Kids and Adults</p>
         <button type="button" className="btn btn-lg consult-btn mt-5">
-          <a href="#" className="text-decoration-none text-white">Schedule a Consultation</a>
+          <a href="#consult-form" className="text-decoration-none text-white">Schedule a Consultation</a>
         </button>
 			</div>
 		</div>

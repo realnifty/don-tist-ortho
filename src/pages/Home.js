@@ -1,9 +1,11 @@
 import Hero from '../components/Hero';
+import About from '../components/About';
 
 const Home = () => {
 	return (
-		<main className='bg-danger'>
-			<Hero/>
+		<main className=''>
+			<Hero />
+			<About />
 		</main>
 	);
 };
