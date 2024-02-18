@@ -19,7 +19,7 @@ const Navbar = () => {
 				<div className='d-flex flex-row align-items-center'>
 					<img src={Braces} alt='logo' className='brace-logo me-2' />
 					<div className='d-flex flex-column'>
-						<h1 className='m-0 notable name'>Don Tist</h1>
+						<h1 className='m-0 jakarta fw-bold name'>Don Tist</h1>
 						<p className='m-0 text-center fs-5 raleway occupation'>
 							Orthodontics
 						</p>

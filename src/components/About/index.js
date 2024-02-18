@@ -14,14 +14,14 @@ const About = () => {
 			<div className='p-4'>
 				<img src={DonTist} alt='dont tist' className='doctist' />
 			</div>
-			<div className='raleway px-4'>
+			<div className='raleway px-4 bol-col'>
 				<h1 className='fw-bold m-0 mb-4 name'>Dr. Don Tist</h1>
 				<p className='fs-5 mb-4'>
 					Dr. Tist is board-certified by the American Board of Orthodontics,
 					and as a resident in the local Houston, Texas community, he will be
 					treating patients at Don Tist Orthodontics for years to come.
 				</p>
-				<button className="btn btn-lg meet text-white">Meet Dr. Tist</button>
+				<button className="btn btn-lg meet text-white mb-4">Meet Dr. Tist</button>
 			</div>
 		</section>
 	);

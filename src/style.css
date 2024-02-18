@@ -28,8 +28,8 @@ code {
 	font-family: 'Raleway', sans-serif;
 }
 
-.notable {
-	font-family: 'Notable', sans-serif;
+.jakarta {
+	font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .name{
@@ -51,6 +51,12 @@ code {
 	height: 500px;
 	background-size: cover;
 	background-position: center;
+}
+
+.bol-col h1 {
+	font-size: 2.5em !important;
+	color: var(--secondary-color) !important;
+	font-weight: 700 !important;
 }
 
 .hero h1 {
@@ -78,4 +84,10 @@ code {
 
 .meet {
 	background-color: var(--secondary-color) !important;
+}
+
+.treatment-img {
+	width: 75%;
+	height: auto;
+	max-width: 100%;
 }
