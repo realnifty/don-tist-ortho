@@ -91,3 +91,12 @@ code {
 	height: auto;
 	max-width: 100%;
 }
+
+.testimonials {
+	background-color: var(--secondary-color) !important;
+}
+
+.testimonials h1 {
+	font-size: 2em !important;
+	font-weight: 700 !important;
+}
